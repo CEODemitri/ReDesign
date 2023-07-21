@@ -59,3 +59,55 @@ navbar {
     color: white;
     font-size: 1.3em;
 }
+
+.hero-section {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.hero-text {
+    font-size: 3.5em;
+    font-weight: 500;
+}
+
+.little-hero {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    font-size: 0.5em;
+    font-weight: 100;
+    letter-spacing: 0.1rem;
+}
+
+.email {
+    height: 60px;
+    width: 300px;
+    border-radius: 5px;
+    border: 0.3px solid grey;
+    margin-right: 16px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    font-size: 1.5em;
+    position: absolute;
+    left: 10px;
+    top: 25%;
+    letter-spacing: 0.2rem;/* Firefox */
+  }
+
+  .btn {
+    background-color: blue;
+    color: white;
+    font-size: 1.1em;
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+  }
+
+  .extra {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.3rem;
+    font-weight: 100;
+  }
